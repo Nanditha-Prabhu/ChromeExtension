@@ -17,7 +17,7 @@ body {
     bounds. So, use box sizing.*/
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
+    border: 1px solid #219ebc;
 }
 
 #input-btn {
@@ -25,6 +25,6 @@ body {
     border: none;
     padding: 10px 15px;
     color: #ffffff;
-    background-color: #5f9341;
+    background-color: #219ebc;
     font-weight: bolder;
 }
