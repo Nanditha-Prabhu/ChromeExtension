@@ -3,14 +3,27 @@ const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
 
+// get the leads variable from local storage. change its type from strings to original form-array
+let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
+
+// if there exists values stored in myleads variable then set call it when refreshed again
+if ( leadsFromLocalStorage ){
+    myLeads = leadsFromLocalStorage
+    renderLeads()
+}
 
 // instead of onclick we use this for cleaner separation of html and js code
 inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEl.value);
     // add it to the list
-    renderLeads()
+    myLeads.push(inputEl.value);
     // clear the input field after saving 
     inputEl.value = ""
+    // save myleads to local storage
+    localStorage.setItem('myLeads', JSON.stringify(myLeads))
+    // to verify its working
+    // console.log( localStorage.getItem('myLeads'))
+    //display the list
+    renderLeads()
 })
 
 function renderLeads(){
