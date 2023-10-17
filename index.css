@@ -38,6 +38,16 @@ body {
     margin-top: 5px;
 }
 
+.btns-section p {
+    color: #219ebc;
+}
+
+#saved-links {
+    color: #219ebc;
+    text-align: left;
+    margin-top: 5px;
+}
+
 #input-btn {
     border: 2px solid transparent;
     padding: 10px 15px;
@@ -45,6 +55,10 @@ body {
     background-color: #219ebc;
     font-weight: bolder;
     width: 150px;
+}
+
+#input-btn:hover {
+    background-color: #1d8aa5;
 }
 
 #delete-btn {
@@ -63,6 +77,10 @@ body {
     background-color: #219ebc;
     font-weight: bolder;
     width: 300px;
+}
+
+#save-tab-btn:hover {
+    background-color: #1d8aa5;
 }
 
 .links-section {
