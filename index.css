@@ -11,6 +11,18 @@ body {
     min-width: 400px;
 }
 
+#text-el {
+    padding: 10px 10px;
+    /* here width is used along with box-sizing because 
+    if we set only width as 100% it becomes 100%+10px(left 
+    padding)+10px(right padding) and will be shown out of 
+    bounds. So, use box sizing.*/
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #219ebc;
+    margin-bottom: 5px;
+}
+
 #input-el {
     padding: 10px 10px;
     /* here width is used along with box-sizing because 
@@ -22,7 +34,7 @@ body {
     border: 1px solid #219ebc;
 }
 
-.btns-section{
+.btns-section, .btns-section-2{
     margin-top: 5px;
 }
 
@@ -32,6 +44,7 @@ body {
     color: #ffffff;
     background-color: #219ebc;
     font-weight: bolder;
+    width: 150px;
 }
 
 #delete-btn {
@@ -40,10 +53,50 @@ body {
     color: #219ebc;
     background-color: #ffffff;
     font-weight: bolder;
+    width: 150px;
 }
 
-ul {
-    margin-top: 20px;
+#save-tab-btn {
+    border: 4px solid transparent;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #219ebc;
+    font-weight: bolder;
+    width: 300px;
+}
+
+.links-section {
+    margin-top: 5px;
+    width: max-content;
+}
+
+#title-table {
+    width: max-content;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    width: 400px;
+    margin: 0% auto;
+    border: 2px solid #219ebc;
+}
+
+thead {
+    background-color: #219ebc;
+    color: #ffffff;
+}
+
+th {
+    padding: 10px 10px;
+    border: 2px solid #219ebc;
+    border-radius: inherit;
+}
+
+td {
+    padding: 10px 10px;
+    border: 2px solid #219ebc;
+    border-radius: inherit;
 }
 
 li {
