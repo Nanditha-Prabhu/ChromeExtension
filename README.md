@@ -30,7 +30,7 @@ The "Links Tracker" Chrome extension is a tool that allows you to easily track t
 
 4. You will be able to view the title and corresponding URLs in table format.
 
-5. To delete the stored data, click on 'DELETE ALL' button.
+5. To delete the stored data, DOUBLE CLICK on 'DELETE ALL' button.
    
 ---
 
