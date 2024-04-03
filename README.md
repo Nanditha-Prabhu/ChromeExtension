@@ -1,6 +1,6 @@
-# Links Tracker - A Chrome Extension to track webpages🌐👓🧾🧾
+# Links Tracker - A Browser Extension to track webpages🌐👓🧾🧾
 
-The "Links Tracker" Chrome extension is a tool that allows you to easily track the URLs of web pages you visit along with their corresponding titles. It displays this information in a table format, making it convenient for reference and organization.
+The "Links Tracker" Browser extension is a tool that allows you to easily track the URLs of web pages you visit along with their corresponding titles. It displays this information in a table format, making it convenient for reference and organization.
 
 ## Features✨
 
@@ -12,9 +12,9 @@ The "Links Tracker" Chrome extension is a tool that allows you to easily track t
 
 1. Clone this repository or download the ZIP file.
 
-2. Open Google Chrome.
+2. Open Google Chrome.(Or any other browser)
 
-3. Navigate to `chrome://extensions/`.
+3. Navigate to `chrome://extensions/`. (Or equivalent extensions section in other browsers)
 
 4. Enable Developer mode.
 
